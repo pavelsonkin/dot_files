@@ -1,0 +1,11 @@
+Diagnostics:
+  ClangTidy:
+    Add: [modernize*, bugprone*, concurrency*, performance*, readability*]
+    Remove: [modernize-use-trailing-return-type, readability-identifier-length, readability-implicit-bool-conversion, readability-simplify-boolean-expr, readability-braces-around-statements]
+    UnusedIncludes: Strict
+InlayHints:
+  Designators: Yes
+  Enabled: Yes
+  ParameterNames: Yes
+Hover:
+  ShowAKA: Yes
